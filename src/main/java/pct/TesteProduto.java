@@ -29,7 +29,7 @@ public class TesteProduto {
             System.out.println("Descrição: "+p.descricao);
             System.out.println("Setor: "+p.setor);
             System.out.println("Preço normal R$ "+p.preco);
-            System.out.println("O preço com R$ " +p.desconto+ " de desconto é R$ "+p.precofinal);
+            System.out.println("O preço normal - 10% de desconto (R$ " +p.desconto+ ") é R$ "+p.precofinal);
             System.out.println("Disponivel: "+p.liberado);
     }
    
