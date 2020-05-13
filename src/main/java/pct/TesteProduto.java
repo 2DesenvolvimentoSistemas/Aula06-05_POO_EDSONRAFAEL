@@ -18,7 +18,7 @@ public class TesteProduto {
             p.descricao = "Arroz";
             p.setor = 'M';
             p.preco = 20.00;
-            p.desconto = 1.00;
+            p.desconto = p.preco/10;
             p.disponivel = true;
             p.precofinal = p.preco - p.desconto;
             
